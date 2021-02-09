@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: azure;
+}
+
+.container {
+  margin: 0 10%;
+  overflow: hidden;
+  height: 100vh;
+  text-align: center;
+}
+
+.text-area {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 5em;
+  color: brown;
+}
+
+h2 {
+  font-size: 3.5em;
+}
+
+span {
+  opacity: 0;
+  transition: all 0.9s ease;
+}
+
+span.fade {
+  opacity: 1;
+}
+
+span.fadeIn {
+  color: blue;
+  opacity: 1;
+}
